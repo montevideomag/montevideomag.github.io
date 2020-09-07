@@ -1,16 +1,15 @@
 # Site
-name: "Memoirs"
-title: "Memoirs"
-description: "I will take you on the fabulous world of exploration. Travel, culture, lifestyle. Eat, Pray, Love!"
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
-baseurl: /jekyll-theme-memoirs
+name: "MontevideoMagazine"
+title: "MontevideoMagazine"
+description: "Todo para entender la ciudad."
+logo: 'assets/images/logot.png'
+favicon: 'assets/images/favicon.ico'
+baseurl: ''
 google_analytics: 'UA-xxxxxxxx-1'
-disqus: 'demowebsite'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+mailchimp-list: 'https://gmail.us17.list-manage.com/subscribe/post?u=4480e8f4c982b62c2f05e2e78&amp;id=b53ff59631'
 include: ["_pages"]
 permalink: /:title/
-email: wowthemesnet@gmail.com
+email: montevideomag@gmail.com
 
 # Authors
 authors:
@@ -50,7 +49,7 @@ jekyll-archives:
     category: '/category/:name/'
     
 # Pagination 
-paginate: 6
+paginate: 5
 paginate_path: /page:num/
     
 # Other
@@ -68,7 +67,7 @@ adsense-data-ad-client: "ca-pub-3412143450191416"
 adsense-data-ad-slot: "1363087678"
 
 # Lazy Images ("enabled" or "disabled")
-lazyimages: "disabled"
+lazyimages: "enable"
 
 # Post Author Box ("enabled" or "disabled")
 authorbox: "disabled"

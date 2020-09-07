@@ -1,6 +1,6 @@
 <div class="share">
     <p>
-        Share
+        Compartí
     </p>
     <ul>
         <li class="ml-1 mr-1">
@@ -14,12 +14,11 @@
                 <i class="fab fa-facebook-f"></i>
             </a>
         </li>
-
+        <!-- Copiar link al portapapeles -->
         <li class="ml-1 mr-1">
-            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}" onclick="window.open(this.href, 'width=550,height=435');return false;">
-                <i class="fab fa-linkedin-in"></i>
+            <a target="_blank" href="https://facebook.com/sharer.php?u={{ page.url | absolute_url }}" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+                <i class="fa fa-link" aria-hidden="true"></i>
             </a>
         </li>
-
     </ul>
 </div>
